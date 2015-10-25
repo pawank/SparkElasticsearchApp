@@ -13,3 +13,9 @@
 1. git clone https://github.com/pawank/SparkElasticsearchApp.git
 2. Open intellij and import project by giving build.sbt path
 3. Click on 'Run' to start the application
+
+## Credits -
+https://github.com/jaceklaskowski/spark-activator.git
+http://spark.apache.org/docs/latest/configuration.html
+https://www.elastic.co/
+https://www.graylog.org/

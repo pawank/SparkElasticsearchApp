@@ -18,8 +18,8 @@ object App {
     val conf = new org.apache.spark.SparkConf()
       .setMaster("local[*]")
       .setAppName("SprakES")
-      .set("es.nodes", "192.168.7.7")
-      //.set("es.nodes", "localhost") //change the IP as per your running IP of elasticsearch
+      //.set("es.nodes", "192.168.7.7")
+      .set("es.nodes", "localhost") //change the IP as per your running IP of elasticsearch
       //.set("es.nodes", "192.168.1.100") //change the IP as per your running IP of elasticsearch
       .set("es.port", "9200")
       .set("es.index.auto.create", "true")

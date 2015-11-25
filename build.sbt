@@ -2,7 +2,7 @@ name := "SparkElasticsearchExample"
 
 version := "1.0"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.7"
 
 //libraryDependencies ++= Seq("org.apache.spark" %% "spark-core" % "1.5.1", "org.elasticsearch" %% "elasticsearch-spark" % "2.1.1")
 
